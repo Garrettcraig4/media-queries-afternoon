@@ -1,0 +1,11 @@
+.App {
+  background: url("./header-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 484px;
+}
+@media screen and (min-width: 755px) {
+  .App {
+    height: 827px;
+  }
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
+.header {
+  height: 50px;
+  background-color: #212529;
+  width: 100%;
+}
+
+#title {
+  font-family: "Kaushan Script", cursive;
+  color: gold;
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+
+  top: 15px;
+}
+
+#menuButton {
+  background-color: gold;
+  color: white;
+  width: 70px;
+  height: 45px;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: baseline;
+  align-content: stretch;
+  position: relative;
+  bottom: 35px;
+}
+.micon {
+  width: 15px;
+  height: 3px;
+  background-color: white;
+  margin: 1px 0;
+  float: right;
+}
+
+.alllinks {
+  display: none;
+}
+
+@media screen and (min-width: 755px) {
+  #menuButton:hover {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  #menuButton {
+    display: none;
+  }
+  .micon {
+    display: none;
+  }
+  .linkas {
+  }
+  .alllinks {
+    color: white;
+    width: 500px;
+    height: 45px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    position: relative;
+    bottom: 35px;
+    right: 55px;
+  }
+  #title {
+    position: relative;
+    left: 70px;
+    font-size: 28px;
+    line-height: 42px;
+  }
+}

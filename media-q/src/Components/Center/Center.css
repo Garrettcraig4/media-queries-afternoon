@@ -1,0 +1,56 @@
+.Center {
+  text-align: center;
+  color: white;
+}
+
+.centerText {
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+
+#oneText {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+#twoText {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+#moreButton {
+  width: 245px;
+  height: 75px;
+  background-color: gold;
+  font-size: 18px;
+  color: white;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 755px) {
+  #oneText {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    padding: -50px;
+  }
+  #twoText {
+    font-size: 75px;
+    line-height: 75px;
+  }
+}
+
+@media screen and (min-width: 755px) {
+  .Center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    margin: 70px;
+  }
+}

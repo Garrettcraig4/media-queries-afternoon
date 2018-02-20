@@ -1,0 +1,26 @@
+.services {
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 210px;
+}
+#services {
+  font-size: 40px;
+  line-height: 48px;
+}
+#soneline {
+  color: #6c757d;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+@media screen and (min-width: 755px) {
+  #services {
+    position: relative;
+    top: 200px;
+  }
+  #soneline {
+    position: relative;
+    top: 200px;
+  }
+}
